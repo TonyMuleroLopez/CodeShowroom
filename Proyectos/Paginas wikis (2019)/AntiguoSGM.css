@@ -1,0 +1,74 @@
+/*SELECTORES DE ETIQUETA*/
+body{margin-left: 0px; height: 100%; }
+li, figcaption p{font: bold 10px Verdana; padding: 1%;}
+div p{margin: 2px 15px;}
+hr{width: 55vw; margin: 0px auto; margin-top: 10px;}
+a{color: black;}
+/*SELECTORES DE ID*/
+/*------------------CABECERA------------------*/
+#avion{float: right; position: relative; margin-top: 5px; width: 8vw; height: 5vh;  animation: vuelo 1s infinite linear forwards;}
+@keyframes vuelo {
+    from{left: 0px;}
+    to{left: -18vw;}
+}
+#tanque{float: left; position: relative; transform: scaleX(-1); width: 8vw; height: 5vh; animation: movimiento 3s infinite linear forwards;}
+@keyframes movimiento {
+    from{left: 0px}
+    to{left: 18vw}
+}
+#titulo{width: 45vw; position: relative; margin: auto; text-align: center; background-color: red; border: 3px solid black; border-radius: 10px;}
+
+/*---------------------INDICE--------------------*/
+#izq{float: left; margin: 10px 5px; height: 112vh; width: 20vw; background-color: wheat; border: 2px solid grey; }
+#der{float: right; height: 409.5vh; width: 22vw; background-color:#191919; border: 1px solid black;}
+#lista{height: 400vh; float: left;}
+#indice li{font:bold medium Verdana;}
+#indice{border: 3px solid grey; width: 49vw; margin: 2px auto; height: 140vh;}
+/*SELECTORES DE CLASE*/
+/*---------------------------TEXTO-------------------*/
+/*POSICIONES DE FOTOS*/
+.imgTextoizq{float: left; text-align: center;}
+.imgTextoder{float: right; text-align: center;}
+/*---------------------------------------------------*/
+/*FOTOS*/
+.fotoTexto{width: 30vw; height: 25vh; border-radius: 10px; border: 3px solid black;}
+
+/*------------------------------------------------------*/
+/*PIES*/
+.pieTexto{background-color: skyblue; border: 2px solid grey; border-radius: 10px; width: 20vw; margin: 0px auto;}
+/*-------------------------------------------------------*/
+/*--------------------------GALERIA----------------------*/
+#galeriader{float:right; height: 409.7vh; background-color:#191919;}
+#galeriaizq{float: left; margin: 10px 5px; height: 294vh; width: 20vw; background-color:#191919;}
+.subtitulo, #cronologia, #cronologia2{margin: 6px auto; width: 15vw; text-align: center; background-color: rgba(240, 52, 52, 1); color: hsla(60, 100%, 47%,1); border-radius: 10px; border: 2px solid hsla(60, 100%, 47%,1);}
+/*----------------------------------------------------*/
+/*POSICION DE FOTO*/
+.imgGaleria{text-align: center; align-items: center; height: 31.5vh;}
+/*--------------------------------------------------*/
+/*FOTOS*/
+.fotoGaleria{width: 13vw; height: 20vh; border-radius: 10px; border: 2px solid white; margin: 0px auto;}
+.fotoGaleria:hover{transform: scale(1.1);}
+/*-----------------------------------------------------*/
+/*PIES*/
+.pieGaleria{background-color: skyblue; border: 2px solid grey; border-radius: 10px; width: 13vw; margin: 0px auto;}
+/*---------------------------------------------*/
+/*MUCHAS FOTOS*/
+.muchasFotosizq{float: left; width: 53.9vw;}
+#textoMF{text-align:left;}
+/*-----------------------------------------*/
+/*FOTOS*/
+.imgMF{width: 17vw; height: 15vh; border-radius: 10px; border: 3px solid black;}
+.imgMF:hover{transform: scale(1.1);}
+/*---------------------------------------------*/
+/*PIES*/
+.pieMF{background-color: skyblue; border: 2px solid grey; border-radius: 10px; width: 17vw; margin: 0px auto;}
+/*------------------------------------------------*/
+/*CRONOLOGIA*/
+#galeriaCronologia{float: left; margin: 10px 2px; height: 130vh; width: 20vw; background-color:#191919;}
+#personajesTexto{float: right; margin: 10px 2px; height: 130vh; width: 22vw; background-color:#191919;}
+#espacioBlancoCronoder{float: right; height: 260vh;}
+#espacioBlancoCronoizq{float: left; height: 260vh;}
+#antecedentes{clear: both;}
+#subtitulo2{margin: 6px auto; width: 15vw; text-align: center;  background-color: aquamarine; color:darkcyan; border-radius: 10px; border: 3px solid darkcyan;}
+
+

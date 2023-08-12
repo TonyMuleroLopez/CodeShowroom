@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Guerra Mundial</title>
+    <style>
+/*SELECTORES DE ETIQUETA*/
+        table{
+            border-collapse: collapse;
+        }
+        div{
+            border: 3px solid grey; background-color: wheat; width: 400px;
+        }
+        section{
+            width: 80%;
+        }
+        img{
+            margin-left: 10%; border-radius: 10px; border: 3px solid black;
+        }
+        img:hover{
+            -webkit-transform: scale(1.1);
+        }
+        figcaption{
+            border: 3px solid grey; background-color: skyblue;text-align: center; width: 200px; margin-left: 18%; border-radius: 10px;
+        }
+        h1{
+            margin: 10px auto; width: 600px; text-align: center; border: 3px solid yellow; border-radius: 10px; background-color: red; color: yellow;
+        }
+        h2{
+            margin: 10px auto; text-align: center; width: 600px; background-color: palegreen;
+            color:royalblue; border: 3px solid green; border-radius: 10px;
+        }
+        h3{margin-left: 50%; text-align: center; width: 300px; background-color:paleturquoise;
+        color: royalblue; border: 3px solid darkcyan; border-radius: 10px;}
+/*SELECTORES DE ID*/
+        #lateral{
+            position: absolute; width: 35%; margin-left: 25%; height: 100%; background-color: white; border: 3px solid white;
+        }
+        #fotos{
+            display: flex;
+        }
+        #fotosresto{
+            margin-top: 10%;
+            display: flex;
+        }
+        #fotostexto{
+            margin-left: 0px;
+        }
+        #fotostexto:hover{
+            -webkit-transform: scale(1.0);
+        }
+        #galeria{
+            position: absolute; width: 19%; margin-left: 80%; border: 3px solid black; text-align: center; background-color: white;
+        }
+        #tituloGaleria{
+            width: 200px; margin: 5px auto; border: 3px solid greenyellow; background-color: green; color: greenyellow;
+        }
+        #fotosgaleria{width: 200px; height: 250px;}
+        #frases{
+            font: normal 1.4em Verdana;
+        }
+        #autores{
+            text-align: right;
+            color: deepskyblue;
+        }
+        #listafotos{padding-top: 10px;}
+    </style>
+</head>
+<body>
+    <h1>Primera Guerra Mundial/la Gran Guerra</h1>
+    <hr>
+<!--SECCION DE LA PGM-->
+    <section>
+        <h2>Introduccion</h2>
+<!--DIV DE GALERIA-->
+        <div id="galeria">
+            <h2 id="tituloGaleria">Galeria</h2>
+            <figure>
+                <img id="fotosgaleria" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/DC-1914-27-d-Sarajevo-cropped.jpg"><br><br>
+                <figcaption>Asesinato del Archiduke (28 de junio de 1914, Sarajevo, Bosnia)</figcaption><br> 
+                <img id="fotosgaleria" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Cheshire_Regiment_trench_Somme_1916.jpg"><br><br> 
+                <figcaption>Trinchera inglesa en la Batalla de Somme (1916)</figcaption><br>   
+                <img id="fotosgaleria" src="https://1.bp.blogspot.com/-I3qcQtVyAcc/V5sheF-xHKI/AAAAAAACEJI/Y8HbZj3vcWoc-_QM0Ie9BRzt8xs2ynPoACLcB/s1600/Ck_eNPBWkAAy90F.jpg"><br><br>
+                <figcaption>Soldados afroamericanos del 369º regimiento de infanteria de la Division 93º, apodado <strong>Harlem Hellfighters</strong></figcaption><br>
+                <img id="fotosgaleria" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Bundesarchiv_DVM_10_Bild-23-61-11%2C_Gro%C3%9Fer_Kreuzer_%22SMS_Bl%C3%BCcher%22.jpg"><br><br>
+                <figcaption>Acorazado alemán SMS Blücher</figcaption><br>
+                <img id="fotosgaleria" src="https://e00-elmundo.uecdn.es/albumes/2014/06/18/protagonistas_guerra/607359122_extras_albumes_2.jpg"><br><br>
+                <figcaption>De izq a der: El archiduque <strong>Francisco Fernando de Austria</strong>, el káiser <strong>Guillermo II de Alemania</strong>, el zar ruso <strong>Nicolás II</strong>, el presidente de la República Francesa <strong>Raymond Poincaré</strong>, el rey del Imperio británico <strong>Jorge V</strong> y el presidente de EEUU <strong>Thomas Woodrow Wilson</strong></figcaption><br>
+                <img id="fotosgaleria" src="https://pbs.twimg.com/media/BwlU3E1IEAAOCig.jpg"><br><br>
+                <figcaption>Niños franceses jugando en un parque con máscaras de gas</figcaption><br>
+                <img id="fotosgaleria" src="https://media.iwm.org.uk/ciim5/58/653/large_000000.jpg"><br><br>
+                <figcaption>Soldados ingleses con las ametralladoras del avión de Manfred von Richthofen <strong>"El Barón Rojo"</strong></figcaption><br>
+                <img id="fotosgaleria" src="https://s.france24.com/media/display/39f08f94-1f48-11e9-844c-005056a964fe/w:900/p:16x9/portada_c.jpg"><br><br>
+                <figcaption>Fábrica de obuses de artilleria francesa</figcaption><br>
+                <img id="fotosgaleria" src="https://www.xlsemanal.com/wp-content/uploads/sites/3/2011/07/CONOCER-HISTORIA-PRIMERA-GUERRA-MUNDIAL-HITLER-768x506.jpg"><br><br>
+                <figcaption>Fotografía de tres soldados alemanes,Adolf Hitler (derecha) entre ellos.</figcaption><br>
+                <img id="fotosgaleria" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG8w6hurlN94HH2X14Qtw5cYGCUjLnz0rFyfa-HchN84C66NI6fGPl2qGwFXZC_wrhr4g&usqp=CAU"><br><br>
+                <figcaption>Foto con los lideres de la PGM firmando el armisticio de Alemania</figcaption><br>
+                <img id="fotosgaleria" src="https://www.sinpermiso.info/sites/default/files/styles/large/public/grandguerre02.jpg?itok=Q2th7J-Q"><br><br>
+                <figcaption>Soldados franceses durante la ofensiva de Nivelle, 1917</figcaption><br>
+                <img id="fotosgaleria" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Douaumont_Ossuary_cemetery.JPG"><br><br>
+                <figcaption>Vista aérea del osario de Douaumont (soldados franceses caídos durante la Batalla de Verdún)</figcaption><br>
+                <img id="fotosgaleria" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Schlieffen_PlanOrig_es.svg/300px-Schlieffen_PlanOrig_es.svg.png"><br><br>
+                <figcaption><p style="color: red;">Las líneas rojas indican la invasión planificada de Francia, Bélgica y Luxemburgo</p><p style="color: blue;"> Las líneas en azul, indican el plan de Francia para atacar Alemania en caso de conflicto.</p></figcaption><br>
+                <img id="fotosgaleria" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Western_front_1914-es.svg/300px-Western_front_1914-es.svg.png"><br><br>
+                <figcaption>El frente occidental una vez estabilizado tras el fin de la ofensiva inicial a finales de 1914.</figcaption><br>
+            </figure>
+        </div>
+<!--INTRODUCCION-->
+        <p>Fue una confrontación bélica centrada mayoritariamente en Europa que tuvo lugar entre el 28 de julio de 1914 y 11 de noviembre de 1918, cuando Alemania aceptó las condiciones del armisticio.</p>
+        <p>Recibió el calificativo de "mundial" porque se vieron involucradas todas las grandes potencias industriales y militares de la época dividas en dos alianzas. Lucharon más de 70 millones de militares, de los cuales 60 millones eran europeos, se movilizaron y lucharon en la entonces guerra más grande de la historia. Hasta antes del comienzo de la SGM, esta guerra era llamada "Gran Guerra" o "Guerra Mundial", expresión utilizada primero por los alemanes desde el inicio de la guerra (<em>Weltkrieg</em>), aunque solo se generalizó en Francia (<em>Guerre Mondiale</em>) y en el Reino Unido (<em>World War</em>) en la decada de 1930. Mientras tanto, en los Estados Unidos, comenzaron a usar este término a partir de su intervención en 1917, ya que allí se conocía como "Guerra europea".</p>
+<!--TABLA BELIGERANTES-->
+        <table border="1">
+            <tr>
+                <th colspan="3">Triple Alianza</th>
+                <th colspan="3">Triple Entente</th>
+            </tr>
+            <tr>
+                <td>Imperio Alemán</td>
+                <td>Imperio Astrohúngaro</td>
+                <td>Italia</td>
+                <td>Reino Unido</td>
+                <td>Francia</td>
+                <td>Imperio ruso</td>
+            </tr>
+        </table>
+        <p>Ambas alianzas sufrieron cambios y fueron varias las naciones que acabarían entrando en el conflicto en uno u otro bando.</p>
+        <figure style="float: left; text-align: center; ">
+            <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/World_War_1.gif/350px-World_War_1.gif" width="300px" height="250px"><br><br>
+            <figcaption>Evolución de los países involucrados</figcaption>
+        </figure>
+<!--CAUSAS DE LA PGM-->
+        <p>Aunque el imperialismo que venía desarrollado desde hacía décadas en las potencias involucradas, fue una de las principales causas, el detonante principal se produjo el 28 de junio de 1914 en Sarajevo con el asesinato del archiduque Francisco Fernando de Austria, a manos de Gavrilo Princip, un joven nacionalista serbio. Este suceso desató una crisis diplomática cuando el Imperio Astrohúngaro dio un ultimátum al Reino de Serbia y se invocaron las distintas alianzas internacionales forjadas a lo largo de las décadas anteriores. En pocas semanas, todas las grandes potencias europeas estaban en guerra, y el conflicto se extendió a muchas otras áreas geográficas.</p>
+        <p>El 28 de julio, los austrohúngaros iniciaron las hostilidades con el intento de invasión de Serbia. Mientras Rusia se movilizaba, Alemania invadió Bélgica, que se había declarado neutral, y Luxemburgo en su camino a Francia. La violación de neutralidad obligó a declarar la guerra a Alemania. Los alemanes fueron detenidos por los franceses a pocos kilómetros de París, y se inició una guerra de desgaste donde las líneas de trincheras apenas sufrirían variación alguna hasta 1917. Este frente es conocido como <strong>frente occidental.</strong> En el otro lado de Europa, en el frente oriental, el ejército ruso logró algunas victorias frente a los austrohúngaros, pero fueron detenidos por los alemanes en su intento de invadir Prusia Oriental. En noviembre de 1914, el Imperio Otomano entró en la guerra, lo que significó la apertura de distintos frentes en el <strong>Cáucaso, Mesopotamia y el Sinaí.</strong> Italia y Bulgaria se unieron a la guerra en 1915, Rumanía en el 1916 y los Estados Unidos en 1917.</p>
+        <p>Tras años de relativo estancamiento, la guerra empezó su desenlace en marzo de 1917 con la caída del gobierno ruso tras la <strong>Revolución de Febrero</strong> y la firma de un acuerdo de paz entre la Rusia revolucionaria y las Potencias Centrales después de la Revolución de Octubre, en marzo de 1918. El 3 de noviembre de 1918, el imperio austrohúngaro firmo un armisticio. Tras una gran ofensiva alemana a principios de 1918 a lo largo de todo el frente occidental, los Aliados hicieron retroceder a los alemanes en una serie de exitosas ofensivas. Alemania en plena revolución, solicitó un armisticio el 11 de noviembre de 1918, poniendo punto y final a la guerra, siendo los ganadores del conflicto los Aliados.</p><br>
+        <p>Tras el fin de la guerra, cuatro grandes imperios dejaron de existir: <li>el alemán</li> <li>el ruso</li><li>el austrohúngaro</li><li>el otomano</li> Los estados sucesores de los dos primeros perdieron una parte importante de sus antiguos territorios, mientras que los dos ultimos se desmantelaron. El mapa de Europa y sus fronteras cambiaron por completo y varias naciones se independizaron o se crearon. Al calor de la PGM se fraguó la revolución rusa, que concluyó con la creación del primer estado en la historia autodenominado socialista: la Unión Soviética.</p>
+<!--DIV LISTAS ORDENADAS Y LATERAL-->
+        <div>
+            <div id="lateral">
+                <section id="fotos">
+                    <img style="width: 250px;" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Dicke_Bertha.Big_Bertha.jpg">
+                    <img style="width: 250px; height: 200px;" src="https://www.super-hobby.es/zdjecia/3/0/9/3585_rd.jpg">
+                </section>
+                <section id="fotosresto">
+                    <img style="width: 250px; height: 200px" src="https://static1.abc.es/media/historia/2018/12/19/batalla-historia-verdun-kG7E--620x349@abc.jpg">
+                    <img style="width: 250px; height: 200px;" src="https://batallasypersonajes.files.wordpress.com/2014/03/a002107.jpg">
+                </section>
+                <section id="fotosresto">
+                    <img style="width: 250px; height: 200px;" src="https://static2.abc.es/media/historia/2020/03/20/carga-hombres-muertos-kCwB--1024x512@abc.jpg">
+                    <img style="width: 250px; height: 200px;" src="https://mihistoriauniversal.com/wp-content/uploads/batalla-somme-municiones.jpg">
+                </section>
+                <section id="fotosresto">
+                    <img style="width: 250px; height: 200px;" src="https://www.artehistoria.com/sites/default/files/styles/full_horizontal/public/imagenobra/CDS30819.jpg?itok=Ql8F3k3O">
+                    <img style="width: 250px; height: 200px;" src="https://4.bp.blogspot.com/-sMYNoMSlrgA/V_CDIA5Ah3I/AAAAAAAALTQ/9INBF6jjC1YA88tq2Xx1ra-yAKENfOAgACLcB/s1600/german_u-boat_1918_8.jpg">
+                </section>
+                <ul style="padding-top: 5px;">
+                    <li id="listafotos">Primera linea: Pieza de artilleria alemana "Big Bertha" y tanque Mark 1, primer tanque de la historia usado en batalla.</li>
+                    <li id="listafotos">Segunda linea: Soldado francés recibiendo un disparo en la Batalla de Verdún y soldados ingleses transportando un herido en la Batalla de Ypres</li>
+                    <li id="listafotos">Tercera linea: Dibujo del Ataque de los Hombres Muertos y Munición de artilleria alemana en la Batalla del Somme</li>
+                    <li id="listafotos">Cuarta linea: Soldado alemán en la Batalla de Tannenberg e interior de un submarino alemán</li>
+                </ul>
+            </div>
+            <ol>
+                <li>Antecedentes</li>
+                <ol>
+                    <li>1 Imperialismo y colonialismo europeo</li>
+                    <li value="1">2 Sistema de alianzas</li>
+                    <li value="1">3 La Paz armada</li>
+                    <li value="1">4 Conflictos y equilibrio de poderes</li>
+                </ol>
+                <li>Preludio</li>
+                <ol>
+                    <li value="2">1 Asesinato del archiduque</li>
+                    <li value="2">2 Crisis de julio</li>
+                </ol>
+                <li>La guerra</li>
+                <ol>
+                    <li value="3">1 1914</li>
+                    <ol>
+                        <li value="3">1.1 Campaña de Serbia</li>
+                        <li value="3">1.2 Ofensiva alemana sobre Bélgica y Francia</li>
+                        <li value="3">1.3 Apertura del frente oriental</li>
+                        <li value="3">1.4 Entrada del Imperio Otomano</li>
+                        <li value="3">1.5 Asia y el Pacífico</li>
+                        <li value="3">1.6 África</li>
+                    </ol>
+                    <li value="3">2 Guerra naval</li>
+                    <li value="3">3 1915</li>
+                    <ol>
+                        <li value="3">3.1 Frente occidental</li>
+                        <li value="3">3.2 Frente oriental</li>
+                        <li value="3">3.3 Campaña de Galipoli</li>
+                        <li value="3">3.4 Campaña de Galipoli</li>
+                        <li value="3">3.5 Entrada de Italia en la guerra</li>
+                        <li value="3">3.6 Campaña de Galipoli</li>
+                        <li value="3">3.7 Otros frentes y sucesos</li>
+                    </ol>
+                    <li value="3">4 1916</li>
+                    <ol>
+                        <li value="3">4.1 Frente occidental</li>
+                        <ol>
+                            <li value="3">4.1.1 Batalla de Verdún</li>
+                            <li value="3">4.1.2 Batalla del Somme</li>
+                        </ol>
+                        <li value="3">4.2 Entrada de Rumanía en la guerra</li>
+                        <li value="3">4.3 Otros sucesos</li>
+                    </ol>
+                    <li value="3">5 1917</li>
+                    <ol>
+                        <li value="3">5.1 Entrada de Estados Unidos en la guerra</li>
+                        <li value="3">5.2 Revolucion rusa</li>
+                        <li value="3">5.3 El frente occidental: Alemania a la defensiva</li>
+                        <li value="3">5.4 Otros frentes</li>
+                    </ol>
+                    <li value="3">6 1918</li>
+                    <ol>
+                        <li value="3">6.1 Ofensiva alemana de primavera</li>
+                        <li value="3">6.2 Ofensiva final y victoria aliada</li>
+                        <ol>
+                            <li value="3">6.2.1 Avance aliado a la línea Hindenburg</li>
+                            <li value="3">6.2.2 Revolucion y rendicion alemana</li>
+                        </ol>
+                        <li value="3">6.3 Resto del mundo</li>
+                        <li value="3">6.4 Armisticio y capitulaciones</li>
+                    </ol>
+                </ol>
+                <li>Reclutamiento</li>
+                <li>Experiencia de los soldados</li>
+                <ol>
+                    <li value="5">1 Prisioneros de guerra</li>
+                </ol>
+                <li>Apoyo a la guerra</li>
+                <li>Oposición a la guerra</li>
+                <li>Tecnología</li>
+                <ol>
+                    <li value="8">1 Guerra terrestre</li>
+                    <ol>
+                        <li value="8">1.1 Gas venenoso</li>
+                    </ol>
+                    <li value="8">2 Naval</li>
+                    <li value="8">3 Aviación</li>
+                </ol>
+                <li>Aspectos económicos</li>
+                <ol>
+                    <li value="9">1 Economía de guerra e intervención del estado</li>
+                    <ol>
+                        <li value="9">1.1 Empeoramiento del frente interior</li>
+                    </ol>
+                    <li value="9">2 Consecuencias económicas</li>
+                </ol>
+                <li>Consecuencias de la guerra</li>
+                <ol>
+                    <li value="10">1 Pérdidas humanas</li>
+                    <li value="10">2 Costes y destrucción</li>
+                    <li value="10">3 Tratados de paz</li>
+                    <li value="10">4 Identidades y cambios en las fronteras nacionales</li>
+                    <li value="10">5 Efectos sobre la salud</li>
+                    <li value="10">6 Influencia en el ascenso del fascismo y el nazismo</li>
+                </ol>
+                <li>Testimonio, literatura y filmografía</li>
+            </ol>
+        </div>
+<!--ANTECEDENTES-->
+        <h1 style="margin-left: 30%;">Antecedentes</h1><hr>
+        <p id="frases">Toda fuerza se agota, la facultad de dirigir la historio no es propiedad perpetua. Europa, que la heredó de Asia hace 3000 años, tal vez no la conservará siempre</p>
+        <p id="autores">Ernest Lavisse 1890</p>
+        <hr>
+<!--IMPERIALISMO-->
+        <h2>Imperialismo y colonialismo europeo</h2><hr>
+            <figure style="float: left; text-align: center;">
+                <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Mapa_del_%C3%81frica_colonial_%281914%29.svg/250px-Mapa_del_%C3%81frica_colonial_%281914%29.svg.png">
+                <figcaption>África en 1914</figcaption>
+            </figure>
+            <p>En 1914, Europa dominaba toda europa con la excepción de Abisinia (actual Etiopía) y Liberia. El imperialismo europeo en África, también provocó continuas tensiones entre paises durante la colonizacón del continente. </p>
+            <p>Como se puede ver en la imagen, los paises con más colonias son Reino Unido y Francia. Por otra parte, las otras dos potencias mundiales que dominaban el mundo (Alemania e Italia) tenían pocas colonias. También tenemos otros países como Portugal, España o Bélgica</p>
+            <p>Tras la revolución industrial y la explosión demográfica, Europa había logrado establecer una dominación política, económica y militar a nivel mundial. Europa reunía a una cuarta parte de la población mundial y cada año cientos de miles de europeos emigraban a países de Ultramar, una emigración que no hacía sino cimentar el dominio europeo sobre el resto del mundo.</p>
+            <p>A principios del siglo XX, el mundo estaba configurado para el beneficio de Europa y la explotación económica de los territorios fuera del continente se guiaba sobre la máxima: "dirigida por Europa y para Europa".</p>
+            <p>Sin embargo, en su interior aún existían muchas diferencias: Francia y Reino Unido poseín el 70% de la mano de obra cualificada y capacidad industrial de todo el continente, siendo la dominación de Europa más bien occidental. Un selecto grupo de países: EEUU, Reino Unido, Alemania y Francia, eran responsables de más del 60% de las exportaciones mundiales.</p>
+            <p>En vísperas de la PGM, Londres ejercía de centro de economía mundial y Europa era la fábrica del mundo, ya que poseía el dominio absoluto del comercio internacional. Sin embargo, antes de 1914 esta hegemonía ya amenazaba con resquebrajarse, producto de las tensiones imperialistas entre las grandes potencias, el ascenso de Japón en Asia y los EEUU en América y en su interior la creciente influencia del marxismo y la agitación en aumento de la clase obrera europea, que amenazaba con subvertir el capitalismo liberal y el orden social existente.</p>
+            <p>El colonialismo euroeo afectó a gran parte del mundo, con la excepción de China y otras naciones orientales que mantuvieron su independencia. Sin embargo, también hubo casos de descolonización exitosos en algunos dominios británicos habitados por colonos o descendientes de colonos blancos, y en las antiguas y diversas colonias españolas en América del Sur que alcanzaron su independencia en el siglo XIX.</p>
+            <p>El reparto más o menos pactado de África, se consensuó tras la Conferencia de Berlín. Esto animó a las potencias europeas a la dominación de vastos territorios. Sin embargo, las crecientes tensiones en la carrera por la conquista de nuevos territorios fuera de europa</p>
+            <figure style="float: left;">
+                <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/China_imperialism_cartoon.jpg/230px-China_imperialism_cartoon.jpg" width="230px" height="350px">
+                <figcaption style="width: 230px; margin-left: 0%;">Caricatura que representa la partición de China a manos de las potencias europeas y el Imperio nipón, Le Petit Journal 1898</figcaption>
+            </figure>
+            <h3>Frases sobre el imperialismo</h3>
+                <p id="frases">"El imperio es el comercio."</p>
+                <p id="autores">Joseph Chamberlain</p><hr>
+                <p id="frases">"Todos los imperios se han creado por medio de la fuerza, pero ninguno puede mantenerse con ella."</p>
+                <p id="autores">Henry Kissinger</p><hr>
+                <p id="frases">"Los imperios caen, sin excepciones."</p>
+                <p id="autores">Anonimo</p><hr>
+                <p id="frases">"Los imperios no los derriba nadie. Se pudren por dentro y caen solos."</p>
+                <p id="autores">Rodolfo Walsh</p><hr>
+<!--SISTEMA DE ALIANZAS-->
+        <h2>Sistema de alianzas</h2><hr>
+        <figure style="float: left;">
+            <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Alianzen_in_Europa_1914-es.svg/250px-Alianzen_in_Europa_1914-es.svg.png">
+            <figcaption style="width: 250px; margin-left: 0%;">
+                Alianzas en europa antes de la Gran Guerra
+                <ul>
+                    <li>En azul, Triple Entente</li>
+                    <li>En rojo, Triple Alianza</li>
+                    <li>En marrón, países neutrales</li>
+                </ul>
+            </figcaption>
+        </figure>
+        <p>Durante todo el siglo XIX, las principales potencias europeas hicieron un gran esfuerzo por mantener un equilibrio de poder en toda Europa, dando como resultado una compleja red de alianzas politicas y militares en todo el comienzo del siglo XX. Aunque sus origenes pueden remontarse a 1815, con la formación de la Santa Alianza entre Prusia, Austria y Rusia, fue en octubre de 1873, con la negociación de la Liga de los Tres Emperadores, cuando se empezó a fraguar el sistema de alianzas puesto en marcha durante la Gran Guerra. Ideado por el canciller alemán, Otto Von Bismarck, la Liga de los Tres Emperadores, prometía ser una alianza entre las monarquías de Austria-Hungría, Rusia y Alemania, aunque finalmente fracasó por la falta de acuerdo entre Austria-Hungría y Rusia sobre la política a seguir en los Balcanes. Esto condujo a la formación de la Doble Alianza, excluyendo a Rusia, para poder contener la influencia rusa en los Balcanes, donde el Imperio Otomano continuaba debilitándose. En 1882, Italia se unió a la alianza, convirtiendola en la Triple Alianza.</p>
+        <figure style="float: right;">
+            <img id="fotostexto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQlb060X_-BTo90IVqG-HytXa5jXua_tUFTlXQqEOLFzgAoIMGyZ-B8oTFwfulPxaX_4&usqp=CAU" height="200px">
+            <figcaption style="width: 250px; margin-left: 10%;">Países que formaban la Triple Entente</figcaption>
+        </figure>
+        <p>A lo largo de su gobierno, Bismarck había trabajado por mantener a Rusia del lado alemán, en un esfuerzo por evitar una guerra en dos frentes. A pesar de ello, cuando Guillermo II llegó al trono y se convirtió en Káiser, sus diferencias con Bismarck obligaron a este último a retirarse, y su sistema de alianzas fue progresivamente desmantelado, incluido el Tratado de reaseguro con Rusia, que el emperador se negó a renovar en 1890. Así pues, solo dos años más tarde se creaba la Alianza franco-rusa para contrarrestar a la Triple Alianza. Francia deseaba la revancha tras la derrota sufrida frente a Prusia en la guerra fracno-prusiana de 1870-1871. Mientras París estaab asediada, los príncipes alemanes habían proclamado el imperio (el llamado Segundo Reich) en el Palacio de Versalles, lo que significó una ofensa para los franceses. La III República perdió Alsacia y Lorena, que pasaron a ser parte del nuevo Reich germano. Su recuperación era ansiada por el presidente francés, Raymond Poincaré, lorenés. En general, las generaciones francesas del siglo XIX y, sobre todo, los estamentos militares, crecieron con la idea nacionalista de vengar la afrenta recuperando esos territorios. Como ejemplo de los aires que se respiraban en Francia en 1914, solo un 1,5% de los reclutas del Ejército francés se resistieron a la movilización, en comparación con el 30% de 1870. Aunque reacio a establecer alianzas con sus potenciales aliados rasgo habitual de la política exterior del Imperio británico, que él mismo denominaba como "espléndido aislamiento", Reino Unido temía cada vez más la expansión militar y naval alemana, por lo que en 1904 firmó una serie de acuerdos con Francia, conocidos como la Entente Cordiale y tres años después firmo la Entente anglo-rusa (1907). Si bien estos acuerdos no representaban una alianza formal entre el Imperio británico, Francia y Rusia, y en la práctica eran sobre todo un arreglo respecto a cuestiones coloniales, dieron a la posibilidad de que Gran Bretaña pudiera entrar de parte de Francia o Rusia en futuros conflictos, por lo que este sistema de acuerdos bilaterales pasó a conocerse como la Triple Entente.</p><hr>
+        <h2>La Paz armada</h2><hr>
+        <figure style="float: left;">
+            <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/6/62/HMS_Dreadnought_1906_H61017.jpg" width="300px" height="250px">
+            <figcaption>El HMS Dreadmought en su primer viaje por el atlántico (1906)</figcaption>
+        </figure>
+        <figure style="float:right">
+            <img id="fotostexto" src="https://www3.gobiernodecanarias.org/medusa/ecoblog/arodmae/files/2017/02/04-gastos-militares.jpg" width="300px" height="250px">
+            <figcaption>Gasto militar de los países protagonistas de la PGM</figcaption>
+        </figure>
+        <p>Tras la unificación alemana y la fundación del Imperio alemán en 1871, después de la victoria teutona en la guerra franco-prusiana, el poder industrial y económico alemán creció enormemente y con él, la carrera armamentista se puso en marcha. Desde mediados de la década de 1890, el gobierno del emperador Guillermo II empezó a dedicar cuantiosos recursos económicos para la construcción de la Marina Imperial alemana. Bajo el mando del almirante Alfred Von Tirpitz, la marina alemana pretendía rivalizar con la Royal Navy británica por la supremacía naval en el mundo. Como resultado, las dos naciones empezaron a competir y a dedicar esfuerzos cada vez mayores en la construcción de buques capitales. La construcción en 1906 del HMS Dreadmought, un acorazado que volvió obsoletos todos los diseños anteriores a él, amplió la ventaja del Imperio británico sobre su rival alemán. La carrera armamentista entre Reino Uniod y Alemania, aunque los germanos consideraban a Francia su principal rival dentro de las fronteras europeas, acabó exyendiéndose al resto de Europa, y todas las grandes potencias dedicaron su industria a la producción de equipos y armas necesarias para un futuro conflicto paneuropeo</p>
+        <p>Así pues, desde mediados de la década de 1870 y hasta 1913, los gastos militares de Alemania y Reino Unido se triplican, se doblan los franceses y suponen una gran carga en los presupuestos gubernamentales de Rusia e Italia, entre 1908 y 1913 la carrera armamentística llegó a su apogeo y se estima que los gastos militares aumentaron en ese lustro un 50%. Sin embargo, debe tenerse en cuenta que el gasto estatal era escaso en comparación con el crecimiento experimentado en las décadas posteriores; por ejemplo, en plena carrera de armamentos con Alemania, el gasto total del Estado británico apenas suponía un 8% de la renta nacional y en otros países insdustriales ajenos a este rearme era mucho menor, como en el caso de Estados Unidos, cuyos gastos del gobierno federal apensas supusieron el 2,5% de la renta nacional entre 1900 y 1916.</p><hr>
+        <h2>Conflictos y equilibrio de poderes</h2><hr>
+        <figure style="float: right;">
+            <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Soldier_and_fallen_comrade.jpg/220px-Soldier_and_fallen_comrade.jpg">
+            <figcaption style="width: 220px; margin-left: 0%;">Un soldado búlgaro junto a su compañero caído durante la primera guerra balcánica, en 1912</figcaption>
+        </figure>
+        <p>Austria-Hungría precipitó la crisis de la Anexión, con la anexión oficial de la provincia de Bosnia y Herzagovina, un antiguo territorio otomano ocupado desde 1878 por Austria. Esto enfureció al Reino de Serbia y a su protector, el Imperio ruso, que seguía una política basada en el paneslavismo y compartía la relgión orotodoxa con sus aliados eslavos. Las maniobras de la diplomacia rusa en los acuerdos de paz provocaron que la región se desestabilizara, lo que sumado a la fractura que ya existía en los Balcanes, hizo que la región fuese conocida como el «polvorín de Europa». Entre 1912 y 1913, la Liga de los Balcanes y el Imperio otomano libraron la primera guerra de los Balcanes, cuyo resultado, plasmado en el Tratado de Londres de 1913, redujo aún más las fronteras del Imperio otomano, y aumentó las ganancias territoriales de Bulgaria, Serbia, Montenegro y Grecia, al tiempo que se creaba un nuevo Estado albanés independiente. La segunda guerra de los Balcanes, producto del ataque búlgaro a Serbia y Grecia del 16 de junio de 1913, desestabilizó aún más la región y la contienda acabó con un reparto territorial principalmente favorable a los vencedores: Serbia obtuvo el grueso de la Macedonia septentrional, Grecia de la meridional (incluyendo Salónica), Rumanía la Dobruja meridional y el Imperio otomano Tracia oriental con Adrianópolis. Bulgaria, a pesar de considerar la guerra como una catástrofe, obtuvo una pequeña parte de Macedonia, la Tracia oriental y territorios al sur de los montes Ródope. Mientras, las grandes potencias europeas soslayaron la situación y fueron capaces de contener los conflictos balcánicos.</p>
+        <p>En vísperas de la deflagración que daría comienzo a la guerra, las Potencias Centrales tenían una producción industrial y un gasto militar significativamente inferior al de la Entente. En 1914, las Potencias Centrales, incluyendo a Turquía, tenían una población de 138 millones de personas, de las que unos 33 millones de hombres podían ser reclutados para el combate; por su parte, la Entente y sus colonias agrupaban a 708 millones de habitantes y unos 179 millones de hombres válidos para la guerra. El gasto militar total de la Entente en 1913 era aproximadamente el doble que el de las Potencias Centrales, aunque Alemania tenía un arsenal de artillería mucho más moderno que el de todos sus adversarios, lo que le daría una ventaja significativa en la futura e inesperada guerra de trincheras. El armamento ligero de la infantería era de una calidad similar en todos los países y tan solo los británicos poseían rifles superiores a la media. En el mar, la Entente, gracias al Imperio británico, era muy superior a sus oponentes y un bloqueo naval sobre Alemania era más que posible. Sin embargo, el aislamiento de Rusia respecto a sus mayores aliados y las ventajas de las Potencias Centrales por su situación geográfica redujeron la superioridad de la Entente.</p><br><br><hr>
+<!--PRELUDIO-->
+        <h1>Preludio</h1><hr>
+        <p>Austria-Hungría, alarmada por el fortalecimiento serbio, llegó a la conclusión de que solo una guerra preventiva impediría que Serbia encabezara un levantamiento general de los eslavos en el Imperio de los Habsburgo.</p>
+        <hr><h2>Asesinato del archiduque Francisco Fernando de Austria en Sarajevo</h2><hr>
+        <p id="frases">El evento no provocó ninguna impresión en absoluto. El domingo y Lunes (días 28 y 29 de junio) las multitudes en Viena escucharon música y bebieron vino, como si nada hubiera pasado.</p>
+        <p id="autores">Zbyněk Zeman (historiador)</p><hr>
+        <figure style="float: left;">
+            <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Atentado_de_Sarajevo.png/220px-Atentado_de_Sarajevo.png" style="margin-left: 50px;">
+            <figcaption style="width: 225px;">Ruta del convoy del archiduque</figcaption>
+        </figure>
+         <figure style="float: right;">
+            <img id="fotostexto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gabrillo_Princip%27s_pistol_%283444725633%29.jpg/220px-Gabrillo_Princip%27s_pistol_%283444725633%29.jpg">
+            <figcaption style="margin: -2px; width: 225px;">Pistola de Princip, Museo de Historia Militar de Viena</figcaption>
+        </figure>
+        <p>Esto ocurrió el 28 de junio de 1914, cuando el archiduque visitó Sarajevo, la capital de Bosnia. Allí, un grupo de seis militantes de la organización revolucionaria Joven Bosnia, grupo juvenil de la organización secreta Mano Negra, se habian reunido en la calle donde estaba previsto que pasase el archiduque con la intención de asesinarlo. Cuando pasó por la calle, Čabrinović lanzó una granada al coche del archiduque, pero falló. Aún así varios viandantes resultaron heridos a causa de la explosión, pero el convoy de Fernando continuó su marcha, y los demás asesinos no actuaron cuando el coche pasó por delante de ellos. Una hora más tarde, cuando el archiduque regresaba del ayuntamiento de Sarajevo en dirección a un hospital para visitar a los heridos por el atentado, la caravana se equivocó y giró hacia una calle, donde, casualmente se encontraba Gavrilo Princip. Acto seguido, Princip sacó su pistola, una FN Modelo 1910, y disparó a Fernando y a su esposa Sofía; Princip intentó suicidarse, pero los guardias del convoy que habían presenciado el magnicidio se lo impidió y fue detenido</p>
+        <p>Las autoridades austro-húngaras realizaron una serie de disturbios antiserbios en Sarajevo, en los que los croatas y bosnios asesinaron a dos personas de origen serbio, y dañaron numerosos edificios de propiedad serbia. Se organizwron acciones violentas contra serbios fuera de Sarajevo y en la ciudad se produjeron más de un centenar de detenciones de sospechosos de haber participado o ayudado en el asesinato del archiduque; los ataques se extendieron a otras ciudades del Imperio austrohúngaro en las actuales Bosnia, Croacia y Eslovenia. Las autoridades encarcelaron o extraditaron en toda Bosnia a unos 5.500 prominentes serbios. Más de 460 serbios fueron condenados a muerte y se creo una milicia especial mayoritariamente servida por bosnios, conocida como <em>Schutzkorps</em>, la cual empezó a perseguir a los serbios de forma sistemática.</p>
+        <hr><h2>Crisis de julio</h2><hr>
+    </section>
+</body>
+</html>

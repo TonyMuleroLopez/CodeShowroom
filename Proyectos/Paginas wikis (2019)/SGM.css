@@ -1,0 +1,240 @@
+/*COLOCACION BODY*/
+html, body{margin: 0; padding: 0; height: 100%; width: 100%;}
+.izquierda{float: left; width: 15%; background-color: white; font-size: smaller; text-align: left;}
+.izquierda li{margin: 10px 0px;}
+#logo
+{
+    width: 125%; margin: 0px auto;
+}
+#pielogo{
+    text-align: center; font-size: medium; color: black;
+}
+
+.derecha{float: right; margin-top: -1px; margin-right: -2px; width: 80%; background-color: white; border-left: 1px solid royalblue; 
+border-bottom: 1px solid royalblue;}
+
+.title{text-align: center;}
+a{text-decoration: underline; color: royalblue;}
+
+/*PADDING TEXTO*/
+p{padding-left: 10px;}
+
+/*FOTOS TEXTO*/
+.contenedorFT{float: right; margin: 5px; padding: 3px; width: 28%; height: 15%; border: 1px solid grey;}
+.imgTexto{width: 100%; height: 50%;}
+.pieTexto{font-size: small;}
+
+/*ANIMACIONES*/
+#avion{float: right; position: relative; margin-top: 5px; width: 7vw; height: 5vh;  animation: vuelo 3s infinite linear forwards;}
+@keyframes vuelo {
+    from{left: 0px;}
+    33%{left: -12.5vw;}
+    66%{transform: scaleX(-1); left: -12.5vw;}
+    99%{left: 0px;}
+    to{transform: scaleX(-1);}
+}
+#tanque{float: left; position: relative; margin-top: 5px; transform: scaleX(-1); width: 7vw; height: 5vh; animation: movimiento 3s infinite linear forwards;}
+@keyframes movimiento {
+    from{left: 0px;}
+    33%{left: 12.5vw;}
+    66%{transform: scaleX(1); left: 12.5vw;}
+    99%{left: 0px;}
+    to{transform: scaleX(1);}
+}
+
+/*TABLA INICIO*/
+.tabla{float: right; clear: right; display: table; width: 35%;  border: 1px solid grey; margin-right: 3px; padding-left: 5px; margin-left: 5px;}
+.tableTitle{width: 96%; margin: 3px auto; font-size: large; text-align: center; background-color: lightskyblue;}
+.fotosTabla{font-size: small;}
+.fotosTabla li{display: inline;}
+/*IMAGENES TABLA*/
+    /*TABLA INICIO*/
+    .imgTableDer{ width: 13vw; height: 10vh; border-bottom: 3px solid black;
+    border-right: 3px solid black;}
+    .imgTableIzq{ width: 13vw; height: 10vh; border-bottom: 3px solid black;
+    margin: 0px;}
+    /*TABLAS CONTENIDO */
+    .imgContenidoDer{ width: 14vw; height: 10vh; border-bottom: 3px solid black;
+    border-right: 3px solid black;}
+    .imgContenidoIzq{ width: 14vw; height: 10vh; border-bottom: 3px solid black;
+    margin-left: -4px;}
+
+/*INDICE*/
+.indice{margin-left: 10px; margin-right: 10px; border: 1px solid grey; width: 60%; float: left;}
+.indice ol li{padding: 3px;} 
+.subtitulo{text-align: center;}
+
+/*BELIGERANTES*/
+.beligerantes{border: 1px solid grey; width: 37%;}
+.beligerantes .aliados{
+    border-left: 1px dashed black; 
+    padding-left: 3px;}
+.tableFlags{width: 3vw; height: 1.8vh; float:left; padding-right: 3px; margin: 1px 0px;}
+
+/*CRONOLOGIA*/
+h3{padding-left: 5px; font-size:1.5em; margin-bottom: -5px; clear: both;}
+h4{padding-left: 5px; font-size:1.2em; margin-bottom: -5px; clear: both;}
+
+/*FOTOS PEQUEÑAS*/
+    /*DERECHA*/
+.fotosPeqDer{width: 300px; height: 200px; border: 1px solid black; float: right; padding: 3px;}
+.peque{width: 100%; height: 185px;}
+    /*IZQUIERDA*/
+.fotosPeqIzq{width: 300px; height: 200px; border: 1px solid black; float: left; padding: 3px;}
+
+/*TRANSCURSO DE LA GUERRA*/
+.frases{
+    font: normal 1.4em Verdana;
+}
+
+.autores{
+    text-align: right;
+    color: deepskyblue;
+}
+
+@media screen and (max-width:767px) {
+    /*PRIMERA PARTE*/
+    body{
+        width: 100%;
+    }
+    .izquierda{
+        width: 99%;
+        font-size: larger;
+        background-color: white;
+        border: 1px solid royalblue;
+        padding-bottom: 2vh;
+    }
+    .izquierda li{
+        margin: 2vw 20vh;
+    }
+    #logo
+    {
+        margin-left: -15vw;
+    }
+    #pielogo
+    {
+        font-size: xx-large;
+    }
+    /*SEGUNDA PARTE*/
+    /*ZONA TITULO*/
+    .derecha
+    {
+        padding-top: 2vh;
+        float: left;
+        width: 99%;
+        font-size: 2em;
+        border: 1px solid royalblue;
+    }
+    .title
+    {
+        font-size: 1.8em;
+        margin-top: -1vh;
+    }
+    #tanque
+    {
+        width: 10vw;
+        height: 7vh;
+    }
+    #avion{
+        width: 10vw;
+        height: 7vh;
+    }
+    /*TABLA INICIO*/
+    .tabla{
+        width: 95%;
+        margin-bottom:4vh;
+        margin-left: 2vw;
+        float: left;
+    }
+    .tableTitle
+    {
+        width: 65%;
+        font-size: 1.2em;
+    }
+    .imgTableDer
+    {
+        width: 45vw;
+        height: 25vh;
+        margin-left: 1vh;
+    }
+    .imgTableIzq
+    {
+        width: 45vw;
+        height: 25vh;
+    }
+    .fotosTabla
+    {
+        font-size: 0.6em;
+        
+    }
+    .fotosTabla .listaTabla::before
+    {
+        content: "\2020";
+        color:cornflowerblue;
+    }
+    /*CONTENIDO*/
+
+    .derecha p
+    {
+        text-align: justify;
+        font-size: 0.9em;
+    }
+    .contenedorFT
+    {
+        width: 95%;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        float: left;
+    }
+    .pieTexto
+    {
+        font-size: 0.6em;
+    }
+    /*SEGUNDO INDICE*/
+    .indice
+    {
+        width: 95%;
+        margin-left: 2vw;
+    }
+    /*TABLA BANDERAS*/
+    .beligerantes
+    {
+        width: 95.3%;
+        margin-left: 2vw;
+    }
+    .tableFlags
+    {
+        width: 10vw;
+        height: 7vh;
+        margin-right: 2vw;
+        margin-bottom: 1vh;
+    }
+    /*TITULOS PRINCIPALES*/
+    #cronologia, #antecedentes, #asia, #europa, #transcurso, 
+    #inicio, #inicioEuropa, #frenteOcci40, #mediterraneo40,
+    #africa40
+    {
+        text-align: center;
+    }
+    /*CONTENIDO TABLAS CUERPO PRINCIPAL*/
+    .imgContenidoDer, .imgContenidoIzq
+    {
+        width: 45vw;
+        height: 25vh;
+    }
+    /*IMAGENES CONTENIDO*/
+    .fotosPeqDer, .fotosPeqIzq
+    {
+        width: 85%;
+        height: 50%;
+    }
+    .peque
+    {
+        height: 100%;
+    }
+    .fotosPeqDer .pieTexto, .fotosPeqIzq .pieTexto
+    {
+        text-align: center;
+        font-size: 0.7em;
+    }
+}

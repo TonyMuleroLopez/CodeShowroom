@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias bélicas</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function inicioPagina() {
+
+                alert("Bienvenido a mi página. Las palabras subrayadas son enlaces. Disfrute.")
+            }
+
+            window.onload = inicioPagina;
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Historia de Las guerras</h1>
+        <h2>En honor a todos los soldados muertos</h2>
+    </header>
+    <table id="tabla">
+        <tr>
+            <th id="guerra">Guerra</th>
+            <th id="ejercito" colspan="3">Ejército 1</th>
+            <th id="ejercito" colspan="3">Ejército 2</th>
+        </tr>
+        <tr>
+            <td id="guerra" class="rojo"><a href="RusiaUcrania2014/rusoUcrania2014.html">Guerra ruso-ucraniana</a></td>
+            <td id="ejercito" colspan="3" class="azul">Ucrania + OTAN</td>
+            <td id="ejercito" colspan="3" class="rojo">Ejercito ruso</td>
+        </tr>
+        <tr>
+            <td rowspan="2" id="guerra"><img id="imgPrincipal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0s2p6HA-JpCPebcZPDqLz9oz5Yo4uJN7ujQ&usqp=CAU"><p>20 de febrero de 2014-Actualidad</p></td>
+            <th id="ejercitoInt" rowspan="2" class="amarilloGradient"><p>Ucrania</p><img id="imgInt" style="border:2px solid black" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTCPMR0jWmfKwPyQf2jJD0j_qscHSyREbmY2JSlsBUlEIV6Yt1b3Nhfl_fFn6PCM-mK0&usqp=CAU"></th>
+            <th id="ejercitoInt" rowspan="2" colspan="2" class="azul"><p>OTAN</p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_of_NATO.svg/1200px-Flag_of_NATO.svg.png" id="imgInt"></th>
+            <th class="azulGradient" id="ejercitoInt" rowspan="2" colspan="2"><p>Rusia</p><img id="imgInt" src="https://m.media-amazon.com/images/I/31OBq7UKPfL._AC_SX425_.jpg"></th>
+            <th class="verdeGradient" id="ejercitoInt" rowspan="2"><p>Bielorrusia</p><img id="imgInt" src="https://www.ecured.cu/images/c/cd/Bandera_bielorrusia.jpg"></th>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td id="guerra" class="azul"><a href="SGM/SGM.html">Segunda Guerra Mundial</a></td>
+            <td id="ejercito" colspan="3" class="rojo">Potencias del Eje</td>
+            <td id="ejercito" colspan="3" class="azul">Potencias Aliadas</td>
+        </tr>
+        <tr>
+            <td rowspan="2" id="guerra"><img id="imgPrincipal" src="https://cloudfront-eu-central-1.images.arcpublishing.com/larazon/2SGW4A6XKFBVVCILDU3XAB4BTU.jpg"><p>1 de septiembre de 1939 - 2 de septiembre de 1945</p></td>
+            <th id="ejercitoInt" rowspan="2" class="rojo"><p>Alemania nazi</p><img id="imgInt" src="https://i2.wp.com/hipertextual.com/wp-content/uploads/2018/01/nazi.jpg?fit=1200%2C742&ssl=1"></th>
+            <th id="ejercitoInt" rowspan="2"><p>Imperio Japonés</p><img id="imgInt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Naval_ensign_of_the_Empire_of_Japan.svg/1200px-Naval_ensign_of_the_Empire_of_Japan.svg.png"></th>
+            <th id="ejercitoInt" rowspan="2" class="verde"><p>Reino de Italia</p><img id="imgInt" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Italy_%281861%E2%80%931946%29.svg"></th>
+            <th id="ejercitoInt" rowspan="2" class="azul"><p>Reino Unido</p><img id="imgInt" src="https://i.ebayimg.com/images/g/BgMAAOSwm6lbSSwi/s-l400.jpg"></th>
+            <th id="ejercitoInt" rowspan="2" class="rojo"><p>Unión Soviética</p><img id="imgInt" style="border:1px solid yellow" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_the_Soviet_Union_%281955%E2%80%931991%29.svg"></th>
+            <th id="ejercitoInt" rowspan="2" class="rojo"><p>Estados Unidos</p><img id="imgInt" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"></th>
+        </tr>
+    </table>
+</body>
+</html>
