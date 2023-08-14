@@ -52,7 +52,7 @@ ul{
 {
     color: var(--text-black-900);
     font-weight: 700;
-    padding: 15px 20px;
+    padding: 100px 0px 10px;
     font-size: 30px;
     letter-spacing: 5px;
     position: relative;
@@ -62,23 +62,30 @@ ul{
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
 }
+.aside .logo a span img{
+    position: relative;
+    top: 15px;
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+}
 .aside .logo a::before{
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    border-bottom:5px solid var(--color);
-    border-left:5px solid var(--color);
+    width: 25px;
+    height: 25px;
+    border-bottom:7px solid var(--color);
+    border-left:7px solid var(--color);
     bottom: 0;
     left: 0;
 }
 .aside .logo a::after{
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    border-top:5px solid var(--color);
-    border-right:5px solid var(--color);
+    width: 25px;
+    height: 25px;
+    border-top:7px solid var(--color);
+    border-right:7px solid var(--color);
     top: 0;
     right: 0;
 }
