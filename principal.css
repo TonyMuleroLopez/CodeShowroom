@@ -69,6 +69,7 @@ ul{
     width: 200px;
     height: 150px;
 }
+
 .aside .logo a::before{
     content: '';
     position: absolute;
