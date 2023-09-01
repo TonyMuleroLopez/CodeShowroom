@@ -617,6 +617,13 @@ h3.profession
     width: 100%;
     display: block;
 }
+.bxslider img{
+    height: 700px;
+    width: 1200px;
+}
+.bxslider .bx-caption{
+    font-size: 2em;
+}
 /*CONTACTO*/
 .contactTitle
 {
