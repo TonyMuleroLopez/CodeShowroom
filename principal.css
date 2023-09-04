@@ -378,7 +378,7 @@ h3.profession
 }
 .about .aboutContent .personalInfo .buttons
 {
-    margin-top: 30px;
+    margin: 30px auto;
 }
 .about .aboutContent .personalInfo .buttons .btn
 {
@@ -393,7 +393,7 @@ h3.profession
 }
 .about .aboutContent .skills .skillItem
 {
-    flex: 0 0 100%;
+    flex: 0 0 50%;
     max-width: 100%;
     margin-bottom: 25px;
 }
@@ -526,6 +526,11 @@ h3.profession
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+    display: flex;
+}
+.service .serviceItem a{
+    display: flex;
+    flex: 1;
 }
 .service .serviceItem .serviceItemInner
 {
@@ -535,6 +540,7 @@ h3.profession
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
+    flex: 1;
 }
 .service .serviceItem .serviceItemInner:hover{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);

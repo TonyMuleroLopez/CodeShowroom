@@ -7,29 +7,7 @@
     <link rel="stylesheet" href="SGM.css">
     <title>La segunda guerra mundial</title>
     <!-- JAVASCRIPT PARA QUITAR Y CAMBIAR PRESENTACION -->
-    <script>
-        function ocultar() {
-            document.getElementById('principal').style.display = 'none';
-            document.getElementById('ocultar').style.display = 'none';
-            document.getElementById('contenido').style.display = 'block';
-            document.getElementById('mostrar').style.display = 'none'
-            stop();
-        }
-        function autoplay()
-        {
-            document.getElementById('audio').play();
-        }
-        function stop() {
-            document.getElementById('audio').pause();
-        }
-        function mostrar()
-        {
-            document.getElementById('intro').style.display = 'block';
-            autoplay();
-            document.getElementById('mostrar').style.display ='none';
-        }
-    </script>
-
+    <script src="SGM.js"></script>
 </head>
 <body>
     <section id="principal">
@@ -45,8 +23,8 @@
             <div><img src="https://static1.abc.es/media/historia/2016/07/27/articulo-villatoro-8-khdC--620x349@abc.jpg" alt=""><span>En honor...</span></div>
         </div>
     </section>
-    <input id="mostrar" type="button" value="Mostrar" onclick="mostrar()">
-    <input id="ocultar" type="button" value="Ocultar" onclick="ocultar()">
+    <input id="mostrar" type="button" value="Reproducir" onclick="mostrar()">
+    <input id="ocultar" type="button" value="Omitir" onclick="ocultar()">
     <section id="contenido">
         <div id="izq">
             <figure id="logo">
