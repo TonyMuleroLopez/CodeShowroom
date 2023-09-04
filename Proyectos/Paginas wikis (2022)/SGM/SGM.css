@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    overflow: hidden;
     text-align: center;
     font-weight: 700;
     font-family: "Poppins";
@@ -304,7 +305,7 @@ p, #der h3, #der h4
         font-size: 2em;
     }
     #intro div img{
-    margin:17vh auto 0;
+    margin:10vh auto 0;
     height: 40vh;
     width: 70vw;
     }
