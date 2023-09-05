@@ -1,0 +1,87 @@
+:root
+{
+    color:#f021b2;
+}
+.aside .logo a::before{
+    border-bottom:7px solid #f021b2;
+    border-left:7px solid #f021b2;
+}
+.aside .logo a::after{
+    border-top:7px solid #f021b2;
+    border-right:7px solid #f021b2;
+}
+.aside .nav-toggler span
+{
+    background: #f021b2;
+}
+.aside .nav-toggler span::before
+{
+    background: #f021b2;
+}
+.aside .nav-toggler span::after
+{
+    background: #f021b2;
+}
+.aside .nav li a.active
+{
+    color: #f021b2;
+}
+.sectionTitle h2::before
+{
+    background: #f021b2;
+}
+.sectionTitle h2::after
+{
+    background: #f021b2;
+}
+.btn
+{
+    background: #f021b2;
+}
+h3.hello span
+{
+    color: #f021b2;
+}
+.typing
+{
+    color: #f021b2;
+}
+.homeImg::after
+{
+    border-bottom:10px solid #f021b2;
+    border-right:10px solid #f021b2;
+}
+.homeImg::before
+{
+    border-top: 10px solid #f021b2;
+    border-left: 10px solid #f021b2;
+}
+.about .aboutContent .aboutText h3 span
+{
+    color: #f021b2;
+}
+.about .aboutContent .skills .skillItem .progress .progressIn
+{
+    background: #f021b2;
+}
+.about .aboutContent .timeline .timelineItem::before
+{
+    background: #f021b2;
+}
+.about .aboutContent .timeline .circle-dot
+{
+    background: #f021b2;
+}
+.service .serviceItem .serviceItemInner .icon .fa,
+.service .serviceItem .serviceItemInner .icon .fa-brands
+{
+    color: #f021b2;
+}
+.contactTitle
+{
+    color: #f021b2;
+}
+.contact .contactInfoItem .icon .fa
+{
+    color: #f021b2;
+}
